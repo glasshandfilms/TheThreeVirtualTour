@@ -39,6 +39,7 @@ ModelImporter:
     2100002: Plastic
     2100004: Light
     2100006: Aluminium
+    2100008: Default_Material
     2300000: Cylinder
     2300002: Cylinder_1_0
     2300004: Cylinder_1_0_2
