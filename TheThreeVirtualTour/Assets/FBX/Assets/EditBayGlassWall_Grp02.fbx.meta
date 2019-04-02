@@ -1,32 +1,39 @@
 fileFormatVersion: 2
-guid: 1c1c628255cfc2b42973d2c870e1bd85
+guid: 6c45c73b56857d344a55e01592aa5089
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Office_Ceiling_Lamp2a
-    100004: Office_Ceiling_Lamp2b
-    100006: Office_Ceiling_Lamp2c
+    100002: Glass01
+    100004: Wall01
     400000: //RootNode
-    400002: Office_Ceiling_Lamp2a
-    400004: Office_Ceiling_Lamp2b
-    400006: Office_Ceiling_Lamp2c
-    2100000: texture
-    2300000: Office_Ceiling_Lamp2a
-    2300002: Office_Ceiling_Lamp2b
-    2300004: Office_Ceiling_Lamp2c
-    3300000: Office_Ceiling_Lamp2a
-    3300002: Office_Ceiling_Lamp2b
-    3300004: Office_Ceiling_Lamp2c
-    4300000: Office_Ceiling_Lamp2c
-    4300002: Office_Ceiling_Lamp2b
-    4300004: Office_Ceiling_Lamp2a
+    400002: Glass01
+    400004: Wall01
+    2100000: lambert1
+    2100002: DryWallMat
+    2100004: AluminiumMat
+    2300000: Glass01
+    2300002: Wall01
+    3300000: Glass01
+    3300002: Wall01
+    4300000: Glass01
+    4300002: Wall01
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: texture
-    second: {fileID: 2100000, guid: 64d65dd599caf50468ff191a80f7ba65, type: 2}
+      name: AluminiumMat
+    second: {fileID: 2100000, guid: 6c84d23a93814ab4e82eec5770c11c46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DryWallMat
+    second: {fileID: 2100000, guid: 7548ef5d6603dca45ab530cb5e0f78cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 4cdbc569799b6c542977f0db14fa06d4, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

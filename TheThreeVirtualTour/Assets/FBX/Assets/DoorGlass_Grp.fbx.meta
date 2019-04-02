@@ -1,32 +1,54 @@
 fileFormatVersion: 2
-guid: 1c1c628255cfc2b42973d2c870e1bd85
+guid: fa03cbe8d80e90d42b964df120a5c88d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Office_Ceiling_Lamp2a
-    100004: Office_Ceiling_Lamp2b
-    100006: Office_Ceiling_Lamp2c
+    100002: DoorHandle
+    100004: DoorSize
+    100006: Trim
+    100008: GlassDoorBottom01
+    100010: GlassSurface
     400000: //RootNode
-    400002: Office_Ceiling_Lamp2a
-    400004: Office_Ceiling_Lamp2b
-    400006: Office_Ceiling_Lamp2c
-    2100000: texture
-    2300000: Office_Ceiling_Lamp2a
-    2300002: Office_Ceiling_Lamp2b
-    2300004: Office_Ceiling_Lamp2c
-    3300000: Office_Ceiling_Lamp2a
-    3300002: Office_Ceiling_Lamp2b
-    3300004: Office_Ceiling_Lamp2c
-    4300000: Office_Ceiling_Lamp2c
-    4300002: Office_Ceiling_Lamp2b
-    4300004: Office_Ceiling_Lamp2a
+    400002: DoorHandle
+    400004: DoorSize
+    400006: Trim
+    400008: GlassDoorBottom01
+    400010: GlassSurface
+    2100000: lambert1
+    2100002: AluminiumMat
+    2100004: GlassMat
+    2300000: DoorHandle
+    2300002: DoorSize
+    2300004: Trim
+    2300006: GlassDoorBottom01
+    2300008: GlassSurface
+    3300000: DoorHandle
+    3300002: DoorSize
+    3300004: Trim
+    3300006: GlassDoorBottom01
+    3300008: GlassSurface
+    4300000: DoorHandle
+    4300002: Trim
+    4300004: DoorSize
+    4300006: GlassSurface
+    4300008: GlassDoorBottom01
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: texture
-    second: {fileID: 2100000, guid: 64d65dd599caf50468ff191a80f7ba65, type: 2}
+      name: AluminiumMat
+    second: {fileID: 2100000, guid: 6c84d23a93814ab4e82eec5770c11c46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassMat
+    second: {fileID: 2100000, guid: 4cdbc569799b6c542977f0db14fa06d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 6c84d23a93814ab4e82eec5770c11c46, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -81,8 +103,8 @@ ModelImporter:
     previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
-    normalSmoothAngle: 60
-    normalImportMode: 0
+    normalSmoothAngle: 40
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
