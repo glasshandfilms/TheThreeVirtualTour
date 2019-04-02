@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Aluminium
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: 4800000, guid: 99b45ec24438ba046b0dd4a363093e6b, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,6 +19,22 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_314E8ADF:
+        m_Texture: {fileID: 2800000, guid: 6f695eeeb86481d4ba5b6d468d30fa01, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_60E64030:
+        m_Texture: {fileID: 2800000, guid: 65eab20a7920af74fbe7ffc2f74a12ef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_688DFFE2:
+        m_Texture: {fileID: 2800000, guid: f6e3b6496ed2e4645912b714d4904cc2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_9FA211C8:
+        m_Texture: {fileID: 2800000, guid: ca6f5cc9fed7dce46a0973863f6686c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -44,6 +60,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Boolean_FC94BA7C: 1
+    - Vector1_8677B577: 2
+    - Vector1_A4EE0195: 0.27
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1

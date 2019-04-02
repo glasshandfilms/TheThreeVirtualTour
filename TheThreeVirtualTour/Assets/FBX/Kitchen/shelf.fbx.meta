@@ -16,7 +16,12 @@ ModelImporter:
     3300002: shelf_02
     4300000: shelf_02
     4300002: shelf_01
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 2262a4bf39e476e4688c48b2db943174, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

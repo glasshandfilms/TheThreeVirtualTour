@@ -17,7 +17,17 @@ ModelImporter:
     3300002: SMEG_MCO23
     4300000: SMEG_lsx861cn
     4300002: SMEG_MCO23
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SMEG_lsx861cn1
+    second: {fileID: 2100000, guid: 2d3cad7ee0cb711449c131bc28dafcfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SMEG_metal_01
+    second: {fileID: 2100000, guid: 90ffbaa3765ffb84c8e9f4925967b88c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

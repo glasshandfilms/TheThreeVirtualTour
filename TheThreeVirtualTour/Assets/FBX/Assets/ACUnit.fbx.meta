@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 7566a2b8b52954c45acb1f4b7786de93
+guid: 1af41d6e5b543854497119acae3bb310
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Marc_Skin
-    2100002: material
-    2100004: Default_Material
+    2100000: DB_Apps&Tech_01_08_03
+    2100002: DB_Apps&Tech_01_08_02
     2300000: //RootNode
     3300000: //RootNode
-    4300000: WZ_Wall_21
+    4300000: ACUnit
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -63,8 +63,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -91,7 +91,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

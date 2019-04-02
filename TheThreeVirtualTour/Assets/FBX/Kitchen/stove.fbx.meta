@@ -35,7 +35,32 @@ ModelImporter:
     4300004: kitchen_detail_07
     4300006: pen_03
     4300008: slab_01
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SMEG_metal_01
+    second: {fileID: 2100000, guid: 06a89216ee62a334a80296ba8c3972ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1
+    second: {fileID: 2100000, guid: 83694dcd8dd835a4ab1a6ee44821b0dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn2
+    second: {fileID: 2100000, guid: 41c9c45bd27d219469516a9178245298, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gray_01
+    second: {fileID: 2100000, guid: 34f37b22f34e1694a869fe8dac3fa5e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: slab_02
+    second: {fileID: 2100000, guid: da8f25ceb5a4d2e4e87037679e45a987, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

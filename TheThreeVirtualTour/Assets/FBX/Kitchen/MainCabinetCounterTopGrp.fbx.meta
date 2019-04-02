@@ -25,7 +25,25 @@ ModelImporter:
     4300000: slab_02
     4300002: pen_07_1
     4300004: kitchen_detail_01
-  externalObjects: {}
+    6400000: kitchen_detail_01
+    6400002: pen_07_1
+    6400004: slab_02
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SMEG_metal_01
+    second: {fileID: 2100000, guid: 098770a6146a1894f8f0ba183f406a87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_02
+    second: {fileID: 2100000, guid: 21df27ae7e0f31c47a5b392378632d98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_04
+    second: {fileID: 2100000, guid: 5f9c1afaebb90f94ebe83412178c59e7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -58,14 +76,14 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

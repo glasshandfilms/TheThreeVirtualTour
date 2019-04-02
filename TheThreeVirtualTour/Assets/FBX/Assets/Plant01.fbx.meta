@@ -1,53 +1,29 @@
 fileFormatVersion: 2
-guid: 498364e4692a3c74aa1dfad5b1df3b68
+guid: 4d8334e4bd0a14f4295a531fb7f1bdf8
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Box004
-    100002: Box005
-    100004: Glass
-    100006: MonitorBack
-    100008: MonitorSide_1
-    100010: Screen
-    100012: Stand
-    100014: StandBottom
-    100016: //RootNode
-    400000: Box004
-    400002: Box005
-    400004: Glass
-    400006: MonitorBack
-    400008: MonitorSide_1
-    400010: Screen
-    400012: Stand
-    400014: StandBottom
-    400016: //RootNode
-    2100000: wire_088177027
-    2100002: Screen
-    2100004: Glass
-    2300000: Box004
-    2300002: Box005
-    2300004: Glass
-    2300006: MonitorBack
-    2300008: MonitorSide_1
-    2300010: Screen
-    2300012: Stand
-    2300014: StandBottom
-    3300000: Box004
-    3300002: Box005
-    3300004: Glass
-    3300006: MonitorBack
-    3300008: MonitorSide_1
-    3300010: Screen
-    3300012: Stand
-    3300014: StandBottom
-    4300000: Box004
-    4300002: Box005
-    4300004: Stand
-    4300006: StandBottom
-    4300008: MonitorBack
-    4300010: Screen
-    4300012: Glass
-    4300014: MonitorSide_1
+    100000: Dirt01
+    100002: //RootNode
+    100004: Plant01 1
+    100006: Pot01
+    400000: Dirt01
+    400002: //RootNode
+    400004: Plant01 1
+    400006: Pot01
+    2100000: lambert1
+    2100002: DirtMat
+    2100004: PlantMat
+    2100006: PlantPotMat
+    2300000: Dirt01
+    2300002: Plant01 1
+    2300004: Pot01
+    3300000: Dirt01
+    3300002: Plant01 1
+    3300004: Pot01
+    4300000: Dirt01
+    4300002: Plant01
+    4300004: Pot01
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -88,7 +64,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
@@ -103,8 +79,8 @@ ModelImporter:
     previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
-    normalSmoothAngle: 60
-    normalImportMode: 0
+    normalSmoothAngle: 22
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
