@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TileFloorMat
-  m_Shader: {fileID: 4800000, guid: 357919431f38b1042aa412316035c0e3, type: 3}
-  m_ShaderKeywords: _NORMALMAP
+  m_Shader: {fileID: 4800000, guid: 99b45ec24438ba046b0dd4a363093e6b, type: 3}
+  m_ShaderKeywords: BOOLEAN_FC94BA7C_ON _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -19,8 +19,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_314E8ADF:
+        m_Texture: {fileID: 2800000, guid: d1b11d3b0b3747b479969c369e5e52f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_31B2D83B:
         m_Texture: {fileID: 2800000, guid: 79713dfdf285cba44a148fb2f71a367b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_60E64030:
+        m_Texture: {fileID: 2800000, guid: 1036a7ba03e6ef5438da569d5fb72020, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_688DFFE2:
+        m_Texture: {fileID: 2800000, guid: 72c57f4456d00d94f8b733a5c4320f4a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_6A190305:
@@ -29,6 +41,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - Texture2D_84BF5A25:
         m_Texture: {fileID: 2800000, guid: 1036a7ba03e6ef5438da569d5fb72020, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_9FA211C8:
+        m_Texture: {fileID: 2800000, guid: 79713dfdf285cba44a148fb2f71a367b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_BE7E441:
@@ -105,9 +121,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Boolean_4260717: 0
+    - Boolean_FC94BA7C: 1
     - Vector1_5028CBBB: 0.26
     - Vector1_75CB6934: 1
     - Vector1_7B1685A2: 0
+    - Vector1_8677B577: 1
+    - Vector1_A4EE0195: 0.06
     - Vector1_E5BAD0B0: 1
     - _AlphaClip: 0
     - _Blend: 0
@@ -118,6 +137,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EmissionMode: 0
+    - _Emission_Multiplier: 1
     - _EnableMask: -1
     - _EnableRipple: -1
     - _EnableWave: -1
@@ -152,9 +172,11 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_3589E031: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 0}
+    - Color_BFDE97E: {r: 4, g: 4, b: 4, a: 0}
     - Color_F105C238: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 0}
     - Vector2_4599E238: {r: -1.09, g: 1, b: 0, a: 0}
     - Vector2_5E694BBD: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_8183BCF9: {r: 0, g: 0.6, b: 0, a: 0}
     - Vector2_9FAE93F2: {r: 6, g: 6, b: 0, a: 0}
     - Vector2_FA8229CC: {r: 0.24, g: 0.53, b: 0, a: 0}
     - _Color: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
