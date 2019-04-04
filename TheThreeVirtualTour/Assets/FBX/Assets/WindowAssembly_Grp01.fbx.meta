@@ -58,6 +58,11 @@ ModelImporter:
     100104: WindowBottom01
     100106: WindowDetail_Grp01
     100108: WindowTop01
+    100110: BackDrop
+    100112: BaseBoards
+    100114: Blinds01
+    100116: Drywall
+    100118: WindowFrame
     400000: Blinds_Grp01
     400002: FakeWallMesh_Grp01
     400004: Group#133_002
@@ -113,10 +118,19 @@ ModelImporter:
     400104: WindowBottom01
     400106: WindowDetail_Grp01
     400108: WindowTop01
+    400110: BackDrop
+    400112: BaseBoards
+    400114: Blinds01
+    400116: Drywall
+    400118: WindowFrame
     2100000: lambert1
     2100002: dbl_Group_003
     2100004: dbl_Group_004
     2100006: dbl_Group_001
+    2100008: WoodMat
+    2100010: WoodFlatMat
+    2100012: WindowWoodMat01
+    2100014: GlassWindowMat01
     2300000: Group#133_002
     2300002: Group#133_003
     2300004: Group#133_004
@@ -165,6 +179,11 @@ ModelImporter:
     2300090: polySurface9
     2300092: WindowBottom01
     2300094: WindowTop01
+    2300096: BackDrop
+    2300098: BaseBoards
+    2300100: Blinds01
+    2300102: Drywall
+    2300104: WindowFrame
     3300000: Group#133_002
     3300002: Group#133_003
     3300004: Group#133_004
@@ -213,6 +232,11 @@ ModelImporter:
     3300090: polySurface9
     3300092: WindowBottom01
     3300094: WindowTop01
+    3300096: BackDrop
+    3300098: BaseBoards
+    3300100: Blinds01
+    3300102: Drywall
+    3300104: WindowFrame
     4300000: Group#133_009
     4300002: Group#133_004
     4300004: Group#133_003
@@ -261,8 +285,48 @@ ModelImporter:
     4300090: polySurface40
     4300092: polySurface42
     4300094: polySurface39
+    4300096: Drywall
+    4300098: BaseBoards
+    4300100: BackDrop
+    4300102: WindowFrame
+    4300104: Blinds01
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassWindowMat01
+    second: {fileID: 2100000, guid: 94851b9a598d49d40a23f0ddee1cebb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowWoodMat01
+    second: {fileID: 2100000, guid: 8f28aeaaedb7d604fafbb6ddc3aefc3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodFlatMat
+    second: {fileID: 2100000, guid: 555ee36d9ac9525488d6a543588a152f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodMat
+    second: {fileID: 2100000, guid: 1779f6f310c5f0f43a74f6649f954a2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_003
+    second: {fileID: 2100000, guid: 3579dd16d6833af4bae7757b082207c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Group_004
+    second: {fileID: 2100000, guid: d6a151c634a9b1d40b21e790806f4030, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 8188678306eee894c85aab463bb734b2, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

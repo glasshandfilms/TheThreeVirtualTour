@@ -11,7 +11,17 @@ ModelImporter:
     3300000: //RootNode
     4300000: ACUnit
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_01_08_02
+    second: {fileID: 2100000, guid: b6756b49bf6a8da45b48c3977ed46e8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_01_08_03
+    second: {fileID: 2100000, guid: c97ea12d3d3861f46b9d71fdc854cec7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
