@@ -1,85 +1,47 @@
 fileFormatVersion: 2
-guid: 2980c68bb9607af4eace406bef32befc
+guid: dc173ce3e9189ba4a9bac9c71e266476
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: kitchen_detail_01
-    100002: LOD_0
-    100004: //RootNode
-    100006: pen_07_1
-    100008: slab_02
-    100010: polySurface1
-    100012: polySurface2
-    100014: polySurface3
-    100016: polySurface4
-    100018: polySurface5
-    100020: polySurface6
-    400000: kitchen_detail_01
-    400002: LOD_0
-    400004: //RootNode
-    400006: pen_07_1
-    400008: slab_02
-    400010: polySurface1
-    400012: polySurface2
-    400014: polySurface3
-    400016: polySurface4
-    400018: polySurface5
-    400020: polySurface6
-    2100000: wood_02
-    2100002: SMEG_metal_01
-    2100004: wood_04
-    2300000: kitchen_detail_01
-    2300002: pen_07_1
-    2300004: slab_02
-    2300006: polySurface1
-    2300008: polySurface2
-    2300010: polySurface3
-    2300012: polySurface4
-    2300014: polySurface5
-    2300016: polySurface6
-    3300000: kitchen_detail_01
-    3300002: pen_07_1
-    3300004: slab_02
-    3300006: polySurface1
-    3300008: polySurface2
-    3300010: polySurface3
-    3300012: polySurface4
-    3300014: polySurface5
-    3300016: polySurface6
-    4300000: slab_02
-    4300002: pen_07_1
-    4300004: kitchen_detail_01
-    4300006: polySurface4
-    4300008: polySurface5
-    4300010: polySurface6
-    4300012: polySurface1
-    4300014: polySurface2
-    4300016: polySurface3
-    6400000: kitchen_detail_01
-    6400002: pen_07_1
-    6400004: slab_02
-    6400006: polySurface1
-    6400008: polySurface2
-    6400010: polySurface3
-    6400012: polySurface4
-    6400014: polySurface5
-    6400016: polySurface6
+    100000: Door
+    100002: polySurface1
+    100004: pPlane1
+    100006: pPlane3
+    100008: //RootNode
+    400000: Door
+    400002: polySurface1
+    400004: pPlane1
+    400006: pPlane3
+    400008: //RootNode
+    2100000: SB_Mat01
+    2100002: SBD_GlassMat01
+    2300000: Door
+    2300002: polySurface1
+    2300004: pPlane1
+    2300006: pPlane3
+    3300000: Door
+    3300002: polySurface1
+    3300004: pPlane1
+    3300006: pPlane3
+    4300000: Door
+    4300002: polySurface1
+    4300004: pPlane1
+    4300006: pPlane3
+    6400000: Door
+    6400002: polySurface1
+    6400004: pPlane1
+    6400006: pPlane3
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: SMEG_metal_01
-    second: {fileID: 2100000, guid: 098770a6146a1894f8f0ba183f406a87, type: 2}
+      name: SBD_GlassMat01
+    second: {fileID: 2100000, guid: 25b0acb075e70ee44b59c42865e3627b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: wood_02
-    second: {fileID: 2100000, guid: 21df27ae7e0f31c47a5b392378632d98, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: wood_04
-    second: {fileID: 2100000, guid: 5f9c1afaebb90f94ebe83412178c59e7, type: 2}
+      name: SB_Mat01
+    second: {fileID: 2100000, guid: c145a39c16f8dce42936df6abe0c491f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -110,7 +72,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 10
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
@@ -119,7 +81,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
