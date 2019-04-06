@@ -1,0 +1,292 @@
+fileFormatVersion: 2
+guid: cc0d6bda7a47996468ff090e8ecb78d6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: kitchen_freezer_101
+    100004: kitchen_freezer_103
+    100006: kitchen_freezer_105
+    100008: kitchen_freezer_106
+    100010: kitchen_freezer_107
+    100012: kitchen_freezer_108
+    100014: kitchen_freezer_109
+    100016: kitchen_freezer_110
+    100018: kitchen_freezer_111
+    100020: kitchen_freezer_112
+    100022: kitchen_freezer_113
+    100024: kitchen_freezer_114
+    100026: kitchen_freezer_115
+    100028: kitchen_freezer_116
+    100030: kitchen_freezer_117
+    100032: kitchen_freezer_118
+    100034: kitchen_freezer_119
+    100036: kitchen_freezer_120
+    100038: kitchen_freezer_121
+    100040: kitchen_freezer_122
+    100042: kitchen_freezer_123
+    100044: kitchen_freezer_124
+    100046: kitchen_freezer_125
+    100048: kitchen_freezer_126
+    100050: kitchen_freezer_127
+    100052: kitchen_freezer_129
+    100054: kitchen_freezer_130
+    100056: kitchen_freezer_131
+    100058: kitchen_freezer_132
+    100060: kitchen_freezer_133
+    400000: //RootNode
+    400002: kitchen_freezer_101
+    400004: kitchen_freezer_103
+    400006: kitchen_freezer_105
+    400008: kitchen_freezer_106
+    400010: kitchen_freezer_107
+    400012: kitchen_freezer_108
+    400014: kitchen_freezer_109
+    400016: kitchen_freezer_110
+    400018: kitchen_freezer_111
+    400020: kitchen_freezer_112
+    400022: kitchen_freezer_113
+    400024: kitchen_freezer_114
+    400026: kitchen_freezer_115
+    400028: kitchen_freezer_116
+    400030: kitchen_freezer_117
+    400032: kitchen_freezer_118
+    400034: kitchen_freezer_119
+    400036: kitchen_freezer_120
+    400038: kitchen_freezer_121
+    400040: kitchen_freezer_122
+    400042: kitchen_freezer_123
+    400044: kitchen_freezer_124
+    400046: kitchen_freezer_125
+    400048: kitchen_freezer_126
+    400050: kitchen_freezer_127
+    400052: kitchen_freezer_129
+    400054: kitchen_freezer_130
+    400056: kitchen_freezer_131
+    400058: kitchen_freezer_132
+    400060: kitchen_freezer_133
+    2100000: 'Material #2842'
+    2100002: 'Material #2831'
+    2100004: 'Material #2843'
+    2100006: ALU_aniso
+    2100008: 'Material #2844'
+    2100010: 'Material #2828'
+    2100012: 'Material #2827'
+    2100014: 'Material #2719'
+    2300000: kitchen_freezer_101
+    2300002: kitchen_freezer_103
+    2300004: kitchen_freezer_105
+    2300006: kitchen_freezer_106
+    2300008: kitchen_freezer_107
+    2300010: kitchen_freezer_108
+    2300012: kitchen_freezer_109
+    2300014: kitchen_freezer_110
+    2300016: kitchen_freezer_111
+    2300018: kitchen_freezer_112
+    2300020: kitchen_freezer_113
+    2300022: kitchen_freezer_114
+    2300024: kitchen_freezer_115
+    2300026: kitchen_freezer_116
+    2300028: kitchen_freezer_117
+    2300030: kitchen_freezer_118
+    2300032: kitchen_freezer_119
+    2300034: kitchen_freezer_120
+    2300036: kitchen_freezer_121
+    2300038: kitchen_freezer_122
+    2300040: kitchen_freezer_123
+    2300042: kitchen_freezer_124
+    2300044: kitchen_freezer_125
+    2300046: kitchen_freezer_126
+    2300048: kitchen_freezer_127
+    2300050: kitchen_freezer_129
+    2300052: kitchen_freezer_130
+    2300054: kitchen_freezer_131
+    2300056: kitchen_freezer_132
+    2300058: kitchen_freezer_133
+    3300000: kitchen_freezer_101
+    3300002: kitchen_freezer_103
+    3300004: kitchen_freezer_105
+    3300006: kitchen_freezer_106
+    3300008: kitchen_freezer_107
+    3300010: kitchen_freezer_108
+    3300012: kitchen_freezer_109
+    3300014: kitchen_freezer_110
+    3300016: kitchen_freezer_111
+    3300018: kitchen_freezer_112
+    3300020: kitchen_freezer_113
+    3300022: kitchen_freezer_114
+    3300024: kitchen_freezer_115
+    3300026: kitchen_freezer_116
+    3300028: kitchen_freezer_117
+    3300030: kitchen_freezer_118
+    3300032: kitchen_freezer_119
+    3300034: kitchen_freezer_120
+    3300036: kitchen_freezer_121
+    3300038: kitchen_freezer_122
+    3300040: kitchen_freezer_123
+    3300042: kitchen_freezer_124
+    3300044: kitchen_freezer_125
+    3300046: kitchen_freezer_126
+    3300048: kitchen_freezer_127
+    3300050: kitchen_freezer_129
+    3300052: kitchen_freezer_130
+    3300054: kitchen_freezer_131
+    3300056: kitchen_freezer_132
+    3300058: kitchen_freezer_133
+    4300000: kitchen_freezer_101
+    4300002: kitchen_freezer_103
+    4300004: kitchen_freezer_105
+    4300006: kitchen_freezer_106
+    4300008: kitchen_freezer_107
+    4300010: kitchen_freezer_108
+    4300012: kitchen_freezer_109
+    4300014: kitchen_freezer_110
+    4300016: kitchen_freezer_111
+    4300018: kitchen_freezer_112
+    4300020: kitchen_freezer_113
+    4300022: kitchen_freezer_114
+    4300024: kitchen_freezer_115
+    4300026: kitchen_freezer_116
+    4300028: kitchen_freezer_117
+    4300030: kitchen_freezer_118
+    4300032: kitchen_freezer_119
+    4300034: kitchen_freezer_120
+    4300036: kitchen_freezer_121
+    4300038: kitchen_freezer_122
+    4300040: kitchen_freezer_123
+    4300042: kitchen_freezer_124
+    4300044: kitchen_freezer_125
+    4300046: kitchen_freezer_126
+    4300048: kitchen_freezer_127
+    4300050: kitchen_freezer_129
+    4300052: kitchen_freezer_130
+    4300054: kitchen_freezer_131
+    4300056: kitchen_freezer_132
+    4300058: kitchen_freezer_133
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ALU_aniso
+    second: {fileID: 2100000, guid: 7ec7a311f8a10d446abe6a92af7f0c2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2719'
+    second: {fileID: 2100000, guid: 9ecb410a4591a824094129c93e52d65d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2827'
+    second: {fileID: 2100000, guid: a9fb67b5a0b15d24ea1fd8d0807d564a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2828'
+    second: {fileID: 2100000, guid: 97cabf807167548479507fce2eb4b026, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2831'
+    second: {fileID: 2100000, guid: 42e1f2c48fbd3d644b70bb3e8e6703b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2842'
+    second: {fileID: 2100000, guid: 8c2f906e20916a94087de4f71b5d9586, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2843'
+    second: {fileID: 2100000, guid: 151339279a2f9b44f8e21c689c27353d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2844'
+    second: {fileID: 2100000, guid: 345d429f9aaf0fe4fa6c9b1d045a0576, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.015
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

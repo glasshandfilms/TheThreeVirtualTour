@@ -48,6 +48,13 @@ ModelImporter:
     100084: polySurface4
     100086: Shell_Grp
     100088: EB9
+    100090: Cabinet_Grp
+    100092: pCube1
+    100094: pCube2
+    100096: pCube3
+    100098: pCube4
+    100100: Handle
+    100102: Handle1
     400000: A19
     400002: ACB
     400004: B
@@ -93,7 +100,16 @@ ModelImporter:
     400084: polySurface4
     400086: Shell_Grp
     400088: EB9
+    400090: Cabinet_Grp
+    400092: pCube1
+    400094: pCube2
+    400096: pCube3
+    400098: pCube4
+    400100: Handle
+    400102: Handle1
     2100000: phong2
+    2100002: lambert1
+    2100004: lambert2
     2300000: A19
     2300002: ACB
     2300004: B
@@ -134,6 +150,12 @@ ModelImporter:
     2300074: polySurface3
     2300076: polySurface4
     2300078: EB9
+    2300080: pCube1
+    2300082: pCube2
+    2300084: pCube3
+    2300086: pCube4
+    2300088: Handle
+    2300090: Handle1
     3300000: A19
     3300002: ACB
     3300004: B
@@ -174,6 +196,12 @@ ModelImporter:
     3300074: polySurface3
     3300076: polySurface4
     3300078: EB9
+    3300080: pCube1
+    3300082: pCube2
+    3300084: pCube3
+    3300086: pCube4
+    3300088: Handle
+    3300090: Handle1
     4300000: DBE9
     4300002: DCCE
     4300004: E45A
@@ -214,6 +242,12 @@ ModelImporter:
     4300074: B
     4300076: Back
     4300078: EB9
+    4300080: pCube1
+    4300082: pCube2
+    4300084: pCube3
+    4300086: pCube4
+    4300088: Handle
+    4300090: Handle1
   externalObjects:
   - first:
       type: UnityEngine:Material
