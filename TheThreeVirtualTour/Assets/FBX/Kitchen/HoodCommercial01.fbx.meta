@@ -1,40 +1,21 @@
 fileFormatVersion: 2
-guid: f0df0c1caef8cd3409135d4fc7a6fada
+guid: 2b74ba0c41d98eb42af3858e7afb13ac
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: TableTop4
     400000: //RootNode
-    400002: TableTop4
-    2100000: blinn3
-    2100002: blinn2
-    2100004: blinn1
-    2100006: CounterTopMarbleMat
-    2300000: TableTop4
-    3300000: TableTop4
-    4300000: TableTop4
+    2100000: CommercialHoodMat
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: CommercialHood
+    9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: CounterTopMarbleMat
-    second: {fileID: 2100000, guid: c3d08a20c984e564cb41749dd587cf23, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: blinn1
-    second: {fileID: 2100000, guid: 45ea6684b5c7b514da5a968ac4e4a4a9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: blinn2
-    second: {fileID: 2100000, guid: 51e73fa12163ccf489dc90102965e6e4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: blinn3
-    second: {fileID: 2100000, guid: ce34eff295134124f8cc0d9fcfe1a02a, type: 2}
+      name: CommercialHoodMat
+    second: {fileID: 2100000, guid: 63000bd025931cc4caab5c5a52c5df66, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -86,8 +67,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -114,7 +95,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

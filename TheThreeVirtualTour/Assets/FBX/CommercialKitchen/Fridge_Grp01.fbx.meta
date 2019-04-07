@@ -34,6 +34,11 @@ ModelImporter:
     100056: kitchen_freezer_131
     100058: kitchen_freezer_132
     100060: kitchen_freezer_133
+    100062: Cube_1
+    100064: Cylinder
+    100066: FreezerShell
+    100068: Handle_Grp01
+    100070: Null
     400000: //RootNode
     400002: kitchen_freezer_101
     400004: kitchen_freezer_103
@@ -65,6 +70,11 @@ ModelImporter:
     400056: kitchen_freezer_131
     400058: kitchen_freezer_132
     400060: kitchen_freezer_133
+    400062: Cube_1
+    400064: Cylinder
+    400066: FreezerShell
+    400068: Handle_Grp01
+    400070: Null
     2100000: 'Material #2842'
     2100002: 'Material #2831'
     2100004: 'Material #2843'
@@ -73,6 +83,7 @@ ModelImporter:
     2100010: 'Material #2828'
     2100012: 'Material #2827'
     2100014: 'Material #2719'
+    2100016: lambert1
     2300000: kitchen_freezer_101
     2300002: kitchen_freezer_103
     2300004: kitchen_freezer_105
@@ -103,6 +114,9 @@ ModelImporter:
     2300054: kitchen_freezer_131
     2300056: kitchen_freezer_132
     2300058: kitchen_freezer_133
+    2300060: Cube_1
+    2300062: Cylinder
+    2300064: FreezerShell
     3300000: kitchen_freezer_101
     3300002: kitchen_freezer_103
     3300004: kitchen_freezer_105
@@ -133,6 +147,9 @@ ModelImporter:
     3300054: kitchen_freezer_131
     3300056: kitchen_freezer_132
     3300058: kitchen_freezer_133
+    3300060: Cube_1
+    3300062: Cylinder
+    3300064: FreezerShell
     4300000: kitchen_freezer_101
     4300002: kitchen_freezer_103
     4300004: kitchen_freezer_105
@@ -163,7 +180,11 @@ ModelImporter:
     4300054: kitchen_freezer_131
     4300056: kitchen_freezer_132
     4300058: kitchen_freezer_133
+    4300060: Cylinder
+    4300062: Cube_1
+    4300064: FreezerShell
     9500000: //RootNode
+    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -235,7 +256,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1.5
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1

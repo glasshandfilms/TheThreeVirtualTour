@@ -29,6 +29,8 @@ ModelImporter:
     2100000: gtr
     2100002: da
     2100004: PLASTIC_PVC_Opaque Black
+    2100006: BarPaintMat
+    2100008: StainlessSteelTopMat
     2300000: be
     2300002: Box007
     2300004: Object044
@@ -48,8 +50,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: BarPaintMat
+    second: {fileID: 2100000, guid: f930bea9dc7f811409920f80c6f494b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: PLASTIC_PVC_Opaque Black
     second: {fileID: 2100000, guid: 6f7a61f125c5765429ab6c4d364aa7eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StainlessSteelTopMat
+    second: {fileID: 2100000, guid: 04cd688c756995848a3785279afe8d10, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
