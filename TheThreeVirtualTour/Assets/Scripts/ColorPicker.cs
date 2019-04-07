@@ -6,6 +6,7 @@ public class ColorPicker : MonoBehaviour
 {
 
     public Camera cam;
+    public Transform vrController;
     public Color startingColor = Color.white;
     public Material material;
     public Texture2D colorWheelTex;
@@ -40,7 +41,7 @@ public class ColorPicker : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0)) {
 
-            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            Ray ray = new Ray(vrController.position, vrController.forward); //cam.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray,  out RaycastHit hit)) {
                 var picker = hit.transform.GetComponent<ColorPicker>();
                 if (picker && picker == this) {

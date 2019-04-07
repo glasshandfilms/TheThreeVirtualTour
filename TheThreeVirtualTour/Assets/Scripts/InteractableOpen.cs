@@ -31,11 +31,11 @@ public class InteractableOpen : MonoBehaviour
 
     }
 
-    private void OnMouseDown() {
+    public void Toggle() {
         open = !open;
     }
 
-    private void OnMouseEnter() {
+    public void OnHover() {
         if (hoverMaterial) {
             foreach (MeshRenderer mr in meshRenderers) {
                 mr.material = hoverMaterial;
@@ -43,7 +43,7 @@ public class InteractableOpen : MonoBehaviour
         }
     }
 
-    private void OnMouseExit() {
+    public void ExitHover() {
         if (hoverMaterial) {
             int i = 0;
             foreach (MeshRenderer mr in meshRenderers) {
